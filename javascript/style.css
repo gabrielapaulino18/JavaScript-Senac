@@ -1,10 +1,10 @@
 body {
-    background-color: #ebe7e0;
+    background-color: #c1bdda;
     font: 13pt Arial;
 }
 
 main {
-    background-color: white;
+    background-color: #ff3898;
     width: 800px;
     padding: 20px;
     margin: auto;
@@ -13,22 +13,22 @@ main {
 }
 
 h1 {
-    color: rgb(0, 0, 0);
+    color: #fff;
 }
 
 .titulo-2{
-    color: rgb(255, 253, 248);
+    color: #000;
 }
 
 h2 {
-    color: darkgoldenrod;
+    color: #fff;
 }
 
 aside {
     display: block; 
     font-size: 10pt;
     text-align: justify;
-    background-color: #44749d;
+    background-color: #FF71B5;
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -47,6 +47,6 @@ a, a:visited {
 }
 
 a:hover {
-    color: darkgoldenrod;
+    color: #fff;
     text-decoration: none;
 }

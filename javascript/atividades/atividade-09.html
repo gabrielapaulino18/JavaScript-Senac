@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de idade e autorização</title>
+
+    <script>
+        let idade = prompt('Qual é a sua idade?','');
+        let autorizacao = prompt('Você tem autorização dos pais? (sim ou não)','');
+
+        if(autorizacao == 'sim' && idade == '18') {
+            document.write('<b> Idade: </b>' + idade)
+            document.write('<br> <b> <font color=blue> Pode Entrar </b> </font>')
+        } else {
+            document.write('<b> Idade: </b>' + idade)
+            document.write('<br> <b> <font color=red> NÃO pode entrar </b> </font>')
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
