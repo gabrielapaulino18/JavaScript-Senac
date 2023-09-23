@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 19</title>
+
+    <script>
+        alert("Seja bem-vindo! \n Responda as questões com o NÚMERO da alternativa CORRETA.");
+
+        document.write('<font color=blue><b> RESULTADO </font></b><br><br><br>')
+
+
+        let pergunta1 = parseInt(prompt('Pergunta 1 \n\n Qual é o maior e o menor país do mundo? \n\n 1) Coreia do Sul e Coreia do Norte \n 2) Rússia e Vaticano \n 3) Japão e Inglaterra \n 4) Argentina e Colômbia'));
+
+        document.write('<font color=red>Pergunta 1: </font>');
+        document.write('<br>Qual é o maior e o menor país do mundo? ');
+        document.write('<br>Alternativa correta: <font color=blue><b>' + 2 + '</font></b>');
+        document.write('<br>Sua resposta: ' + pergunta1);
+        document.write('<hr>');
+
+        let pergunta2 = parseInt(prompt('Pergunta 2 \n\n Qual é o maior OSSO do corpo humano?\n\n 1) Clavícula \n 2) Sacro \n 3) Costela \n 4) Fêmur'));
+
+        document.write('<font color=red> Pergunta 2: </font>');
+        document.write('<br>Qual é o maior osso do corpo humano? ');
+        document.write('<br>Alternativa correta: <font color=blue><b>' + 4 + '</font></b>');
+        document.write('<br>Sua resposta: ' + pergunta2);
+        document.write('<hr>');
+
+        let pergunta3 = parseInt(prompt('Pergunta 3 \n\n Qual é a data do dia da Indenpendência do Brasil? \n\n 1) 7 de Setembro \n 2) 18 de Setembro \n 3) 22 de Setembro \n 4) 29 de Setembro'));
+
+        document.write('<font color=red>Pergunta 3: </font>');
+        document.write('<br>Qual é a data do dia da independência do Brasil? ');
+        document.write('<br>Alternativa correta: <font color=blue><b>' + 1 + '</font></b>');
+        document.write('<br>Sua resposta: ' + pergunta3);
+        document.write('<hr>');
+
+        let pergunta4 = parseInt(prompt('Pergunta 4 \n\n O que a palavra "LEGEND" significa em português? \n\n 1) Legenda \n 2) Conto \n 3) Lenda \n 4) Legendário'));
+
+        document.write('<font color=red>Pergunta 4: </font>');
+        document.write('<br>O que a palavra "LEGEND" significa em português? ');
+        document.write('<br>Alternativa correta: <font color=blue><b>' + 3 + '</font></b>');
+        document.write('<br>Sua resposta: ' + pergunta4);
+        document.write('<hr>');
+
+        let pergunta5 = parseInt(prompt('Pergunta 5 \n\n Quais são os principais autores da primeira geração do Romantismo? \n\n 1) Magalhães de Gonçalves, Gonçalves Dias e Araujo Porto. \n 2) Araujo Porto Alegre, Alvares de Abreu e Gonçalves Freire. \n 3) Araujo Porto Alegre, Casimiro de Abreu e Castro Alves. \n 4) Gonçalves Dias, Gonçalves Magalhães e Araujo Porto Alegre'));
+
+        document.write('<font color=red>Pergunta 5: </font>');
+        document.write('<br>Quais são os principais autores da primeira geração do Romantismo?');
+        document.write('<br>Alternativa correta: <font color=blue><b>' + 4 + '</font></b>');
+        document.write('<br>Sua resposta: ' + pergunta5);
+        document.write('<hr>');
+
+        let r1 = 0;
+        let r2 = 0;
+        let r3 = 0;
+        let r4 = 0;
+        let r5 = 0;
+
+        if(pergunta1 === 2){
+            r1 = 1;
+        }
+        if(pergunta2 === 4){
+            r2 = 1;
+        }
+        if (pergunta3 === 1){
+            r3 = 1;
+        }
+        if (pergunta4 === 3){
+            r4 = 1;
+        }
+        if (pergunta5 === 4){
+            r5 = 1;
+        }
+
+
+        let pontos = r1 + r2 + r3 + r4 +r5;
+
+        document.write('Pontos: <font color=green>' + pontos + '</font>')
+
+        
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

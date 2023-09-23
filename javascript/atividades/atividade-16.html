@@ -7,11 +7,26 @@
     <title>Boletim Escolar</title>
 
     <script>
-        let nome = prompt('Digite o nome do aluno: ','');
-        let nota1 = prompt('Digite a primeira nota: ','');
-        let nota2 = prompt('Digite a segunda nota: ','');
-        let nota3 = prompt('Digite a terceira nota: ','');
-        let nota4 = prompt('Digite a quarta nota: ','');
+    let nome = prompt('Digite o nome do aluno');
+    document.write('Nome: ', '' + nome);
+
+    let nota1 = parseFloat(prompt('Digite a nota 1'));
+    document.write('<br> Nota 1: ','' + nota1);
+
+    let nota2 = parseFloat(prompt('Digite a nota 2'));
+    document.write('<br> Nota 2: ','' + nota2);
+
+    let nota3 = parseFloat(prompt('Digite a nota 3'));
+    document.write('<br> Nota 3: ','' + nota3);
+
+    let nota4 = parseFloat(prompt('Digite a nota 4'));
+
+    document.write('<br>Nota 4: ','' + nota4);
+
+    let media = (nota1+nota2+nota3+nota4)/4;
+    document.write('<br>Média: ' + media);
+
+    
 
         
     </script>
