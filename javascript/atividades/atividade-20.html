@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <script>
+// Coloque as suas notas do fechamento bimestral e veja a nota final, se a nota final for mais de 20 pontos você passou de Ano Escolar, caso ao contrario você repitiu de ano.
+
+        function somarMedia(a, b, c, d) {
+
+            a = parseInt(prompt('Bismestre 1:',''));
+            document.write('<br>1º Bimestre: ' + a);
+            b = parseInt(prompt('Bimestre 2:',''));
+            document.write('<br>2º Bimestre: ' + b);
+            c = parseInt(prompt('Bimestre 3:',''));
+            document.write('<br>3º Bimestre: ' + c);
+            d = parseInt(prompt('Bimestre 4:',''));
+            document.write('<br>4º Bimestre: ' + d);
+
+
+            let resultado = a + b + c + d;
+            return resultado;
+
+        }
+
+        let resultado = somarMedia();
+
+        document.write('<br><hr>Resultado: ' + resultado);
+        document.write('<br><br>Nota final: <font color=red>20 pontos</font>')
+        console.log(resultado);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

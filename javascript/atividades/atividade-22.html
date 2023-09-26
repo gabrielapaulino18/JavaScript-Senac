@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área de um terreno</title>
+
+    <script>
+        function area(a, b) {
+            a = parseInt(prompt('Digite a largura do terreno: ', ''));
+            document.write('<br>Largura do Terreno:  ' + a + ' metros');
+            b = parseInt(prompt('Digite o comprimento do Terreno: ', ''));
+            document.write('<br><br>Comprimento do terreno:  ' + b + ' metros');
+
+            let terreno = a * b;
+            return terreno;
+        }
+
+        let terreno = area();
+
+        document.write('<br><br>Área do terreno: ' + terreno + ' metros quadrados');
+        console.log(terreno);
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

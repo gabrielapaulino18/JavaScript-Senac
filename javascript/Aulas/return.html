@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funçao Return</title>
+
+    <!-- <script>
+
+        function somarValores(a, b) {
+            return a + b;
+        }
+
+        // a variavel resultado esta recebendo a funçao somarValores
+        let resultado = somarValores(5, 3);
+
+        // Isso exibirá "8" no console, porque a função retornou o resultado da soma.
+        console.log(resultado);
+        document.write(resultado);
+
+    </script> -->
+
+    <!-- <script>
+        function somarValores(a, b) {
+            return a + b;
+        }
+
+        // Aqui permitimos que os valores dos parâmetros sejam definidos pelo usuário
+        a = parseInt(prompt('Valor 1: ',''));
+        b = parseInt(prompt('Valor 2: ',''));
+
+        // a variavel resultado esta recebendo a funçao somarValores
+        let resultado = somarValores(a, b);
+
+        // Exibirá o resultado da soma no console
+        console.log(resultado);
+        document.write(resultado);
+    </script> -->
+
+    <script>
+
+        function calcucarIdade(anoNascimento) {
+
+            // Obtém o ano atual
+            let anoAtual = new Date().getFullYear();
+
+            // Calcula a idade subtraindo o ano de nascimento do ano atual
+            let idade = anoAtual - anoNascimento;
+
+            return idade;
+        }
+
+        // Permitindo o usuario entrar com o argumento
+        let anoNascimento = prompt('Digite o ano de nascimento', '');
+
+        // Chama a função calcularIdade com o ano de nascimento
+        let idadeDaPessoa = calcucarIdade(anoNascimento);
+
+        // exibe a idade calculada no console
+        document.write('A idade da pessoa é: ' + idadeDaPessoa + ' anos');
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
