@@ -1,16 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo de Uso do Comando Switch</title>
 
     <script>
-        let cor = prompt('Digite o dia da semana entre 1 e 7: ', '');
+        let cor = prompt('Digite os números entre 1 a 7 e descubra as cores do Arco-íris em ordem: ', '');
         let arcoiris;
+
+        switch (cor) {
+
+            case 1:
+                arcoiris = 'Vermelho';
+                break;
+
+            case 2:
+                arcoiris = 'Laranja';
+                break;
+
+            case 3:
+                arcoiris = 'Amarelo';
+                break;
+
+            case 4:
+                arcoiris = 'Verde';
+                break;
+
+            case 5:
+                arcoiris = 'Azul';
+                break;
+
+            case 6:
+                arcoiris = 'Anil';
+                break;
+
+            case 7:
+                arcoiris = 'Violeta';
+                break;
+        }
+
+        document.write('Cor digitada: ' + cor);
+        document.write('<br> Arco-íris cor: ' + arcoiris)
     </script>
 </head>
+
 <body>
-    
+
 </body>
+
 </html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+
+    <script>
+        let n1 = parseInt(prompt('Digite o primerio valor: ', ''));
+        let n2 = parseInt(prompt('Digite o segundo valor: ', ''));
+        let operacao = prompt('Digite a operação que deseja fazer a sua conta (EXEMPLO: - + / *)');
+
+
+        let op;
+        let resultado
+
+        switch (operacao) {
+
+            case '+':
+                op = 'Soma'
+                resultado = n1 + n2
+                
+                break;
+
+            case '-':
+                op = 'Subtração'
+                resultado = n1 - n2
+                break;
+
+            case '*':
+                op = 'Multiplicação'
+                resultado =  n1 * n2
+                break;
+
+            case '/':
+                op = 'Divisão'
+                resultado = n1 / n2
+                break;
+
+                default:
+                operacao = 'Valor Inválido';
+        }
+
+        document.write('Primeiro valor: ' + n1);
+        document.write('<br>Segundo valor: ' + n2);
+        document.write('<br>Operaçao escolhida: ' + op)
+        document.write('<br>Resultado: ' + resultado)
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
