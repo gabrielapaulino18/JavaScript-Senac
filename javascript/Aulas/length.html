@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        // propriedade length
+        document.write('Gabriela Paulino'.length);
+        console.log('Gabriela Paulino'.length)
+
+        document.write('<br>');
+
+        // propriedade charAt
+        document.write('Gabriela Paulino'.charAt(9));
+        console.log('Gabriela Paulino'.charAt(9));
+
+        let nome = 'Gabriela Paulino'
+
+        document.write('<br>');
+
+        // propriedade idexOf
+        document.write(nome.indexOf('P'));
+        console.log(nome.indexOf('P'));
+
+        document.write('<br>');
+
+        // propriedade replace
+        document.write(nome.replace('Paulino','Silva'));
+        console.log(nome.replace('Paulino','Silva'));
+
+        document.write('<br>');
+
+        // propriedade substr (inicio, numero de caracteres)
+        document.write(nome.substr(0,4));
+        console.log(nome.substr(0,4));
+
+        document.write('<br>');
+
+        // propriedade toUpperCaser
+        document.write(nome.toUpperCase());
+        console.log(nome.toUpperCase());
+
+        document.write('<br>');
+
+        // propriedade toLowerCase
+        document.write(nome.toLowerCase());
+        console.log(nome.toLowerCase());
+
+        document.write('<br>');
+        let texto = ' Aula JavaScript ';
+
+        // propriedade trim
+        document.write('=' + texto + '= <br>');
+        document.write('=' + texto.trim() + '= <br>');
+
+        document.write('<br>');
+
+        let numero = 10.35978;
+        document.write(numero + '<br>');
+        document.write(Math.ceil(numero) + '<br>');
+
+        document.write(Math.floor(numero) + '<br>');
+
+        document.write(Math.round(10.5) + '<br>');
+        document.write(Math.round(10.4) + '<br>');
+
+        let x = Math.random();
+        document.write('<br>' + x);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

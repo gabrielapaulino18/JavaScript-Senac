@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Onkeydown</title>
+</head>
+<body>
+    
+<h2> Exemplo evendo Onkeydown</h2>
+
+<script>
+
+    // quando pressionado qualquer tecla ativa a função
+    // document.onkeydown = function() {
+    //     document.body.style.backgroundColor = 'yellow'
+    // };
+
+    document.onkeydown = function(event) {
+        if (event.key === 'Enter') {
+            alert('Você pressionou Enter!');
+        }
+    };
+
+    // Este script conta quantas teclas você pressionou
+
+    var contador = 0;
+
+    document.onkeydown = function() {
+        contador++;
+        console.log('Teclas Precionadas: ' + contador);
+    };
+
+    document.onkeypress = function(event) {
+        console.log('Você digitou a letra: ' + event.key);
+    };
+
+</script>
+
+</body>
+</html>
