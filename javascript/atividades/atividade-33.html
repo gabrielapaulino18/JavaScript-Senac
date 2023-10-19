@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+    
+    <script>
+        function modificarImagem(corDeFundo, altura, largura, raio) {
+            document.getElementById('quadrado').style.backgroundColor = corDeFundo;
+    
+            document.getElementById('quadrado').style.height = altura;
+            document.getElementById('quadrado').style.width = largura;
+            document.getElementById('quadrado').style.borderRadius = raio;
+        }
+    </script>
+    
+    <h2>Maniplulando estilo</h2>
+    <hr>
+    <button type="button" onclick="modificarImagem('#fb98a8', '600px', '500px')">Imagem 1</button>
+    <button type="button" onclick="modificarImagem('#9e1bd2')">Imagem 2</button>
+    <button type="button" onclick="modificarImagem('#0000FF', '150px', '150px', '50%')">Imagem 3</button>
+    <br><br>
+    
+    <div id="quadrado" style="border: solid 1px #000; width: 100px; height: 100px;"></div>
+
+   
+</body>
+</html>

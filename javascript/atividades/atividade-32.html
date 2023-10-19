@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<h1>Abre o console para ver a execução</h1>
+    
+<script>
+
+var contador = 0;
+
+    document.onkeydown = function() {
+        contador--;
+        console.log('Teclas Precionadas: ' + contador);
+    };
+
+    document.onkeypress = function(event) {
+        console.log('Você digitou a letra: ' + event.key);
+    };
+
+    document.onkeyup = function() {
+        console.log('Você soltou uma tecla')
+    }
+
+</script>
+    
+</body>
+</html>

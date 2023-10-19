@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos de mouse aplicados em botões</title>
+</head>
+<body>
+    
+    <script>
+
+        function acao() { 
+            document.write('<img src="imagens/morango.png" width="300px">');
+        }
+    </script>
+
+<button onclick="acao()">Evento onclick</button>
+<br><br><br>
+
+<!-- Evento ondblclick "ao clicar duas vezes" -->
+<button ondblclick="acao()">Evento ondblclick</button>
+<br><br><br>
+
+<!-- Evento onmouseup "quando segura o clique a ação ocorre ao soltar o clique" -->
+<button onmouseup="acao()"> Evento onmouseup</button>
+<br><br><br>
+
+<!-- Evento onmouseover "ao passar o mouse no elemento" -->
+<button onmouseover="acao()">Evento onmouseover</button>
+<br><br><br>
+
+<!-- Evento onmouseout "quando o mouse sai d area do elemento" -->
+<button onmouseout="acao()"> Evento onmouseout</button>
+<br><br><br>
+</body>
+</html>

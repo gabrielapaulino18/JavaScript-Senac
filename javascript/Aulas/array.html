@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+<body>
+    
+<script>
+
+    // Criação de array "chave : valor"
+
+    // let lista_frutas = Array();
+    // lista_frutas[1] = 'Banana';
+    // lista_frutas[2] = 'Maça';
+    // lista_frutas[3] = 'Morango';
+    // lista_frutas[4] = 'Uva';
+
+    // console.log(lista_frutas[1]);
+
+    // nesse tipo de declaração não é possivel manipular o indice, omde o javascript inicia com strings
+    // let lista_frutas = Array('Banana','Maça','Morango','Uva');
+
+    // Escolhendo o indice de retorno
+    // console.log(lista_frutas[0]);
+
+    // Criação de array multidimensional
+    // let lista_coisas = Array();
+    // lista_coisas['Frutas'] = Array();
+    // lista_coisas['Frutas'][1] = 'Banana';
+    // lista_coisas['Frutas'][2] = 'Maça';
+    // lista_coisas['Frutas'][3] = 'Morango';
+    // lista_coisas['Frutas'][4] = 'Uva';
+
+    // lista_coisas['pessoas'] = Array();
+    // lista_coisas['pessoas'][1] = 'João';
+    // lista_coisas['pessoas'][2] = 'José';
+    // lista_coisas['pessoas'][3] = 'Maria';
+
+    // console.log(lista_coisas);
+
+    // criação de Array multidimensional
+    // let lista_coisas = Array();
+
+    // Formas de declarar arrays
+    // lista_coisas['frutas'] = Array('Banana','Maça','Morango','Uva');
+
+    // lista_coisas['pessoas'] = ['João','José','Maria'];
+
+    // console.log(lista_coisas)
+
+    let lista_coisas = Array();
+    lista_coisas['Frutas'] = Array();
+    lista_coisas['Frutas'][1] = 'Banana';
+    lista_coisas['Frutas'][2] = 'Maça';
+    lista_coisas['Frutas'][3] = 'Morango';
+    lista_coisas['Frutas'][4] = 'Uva';
+
+    lista_coisas['pessoas'] = Array();
+    lista_coisas['pessoas']['a'] = 'João';
+    lista_coisas['pessoas']['b'] = 'José';
+    lista_coisas['pessoas']['c'] = 'Maria';
+
+    // chamando valores as arrays
+    document.write(lista_coisas['Frutas'][3]);
+    document.write('<br>');
+    document.write(lista_coisas['pessoas']['b'])
+    document.write('<br>');
+
+    lista_coisas['frutas'] = Array('Banana','Maça','Morango','Uva');
+    lista_coisas['pessoas'] = ['João','José','Maria'];
+
+    document.write(lista_coisas['Frutas'][1]);
+    document.write('<br>');
+    document.write(lista_coisas['pessoas'][2])
+</script>
+
+</body>
+</html>
